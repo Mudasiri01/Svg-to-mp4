@@ -12,8 +12,10 @@ import { errorRecovery } from '../engine/errorRecovery';
  * Exports: renderVideo, generatePreview, renderStatus, progress, cancelRender
  */
 
+// useRemotionRenderer.js ki line 13 par check karein:
+// useRemotionRenderer.js (Line 13)
 const SERVER_BASE = 'https://your-app.up.railway.app'; 
-// (Yahan 'your-app.up.railway.app' ki jagah apna asli Railway URL lagayein)
+// Note: Is URL ke aakhir mein '/api/health' ya extra slash '/' MAT lagana.
 export const useRemotionRenderer = () => {
   const [renderStatus, setRenderStatus] = useState('idle');
   const [progress,     setProgress]     = useState(0);
