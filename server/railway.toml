@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+pkgs = ["ffmpeg", "chromium"]
+
+[phases.build]
+cmds = ["npm ci", "npx playwright install chromium"]

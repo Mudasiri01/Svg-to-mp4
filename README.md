@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Svg-to-mp4
 =======
 # ✦ Aura SVG Studio
@@ -101,3 +102,6 @@ A template matches this layout is available at `/public/sample.svg` in the proje
 ## 📞 Support & Feedback
 For any issues, feedback, or assistance, contact developers at **+880 1761 709821**.
 >>>>>>> 4fead9d (initial commit)
+=======
+# Svg-to-mp4
+>>>>>>> 611e63d330c11b6b355ef6851a3f8c1390189faf
