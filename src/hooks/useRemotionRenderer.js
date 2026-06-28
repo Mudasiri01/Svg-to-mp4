@@ -12,8 +12,8 @@ import { errorRecovery } from '../engine/errorRecovery';
  * Exports: renderVideo, generatePreview, renderStatus, progress, cancelRender
  */
 
-const SERVER_BASE = 'http://localhost:3001';
-
+const SERVER_BASE = 'https://your-app.up.railway.app'; 
+// (Yahan 'your-app.up.railway.app' ki jagah apna asli Railway URL lagayein)
 export const useRemotionRenderer = () => {
   const [renderStatus, setRenderStatus] = useState('idle');
   const [progress,     setProgress]     = useState(0);
