@@ -3,4 +3,4 @@ builder = "nixpacks"
 pkgs = ["ffmpeg", "chromium"]
 
 [phases.build]
-cmds = ["npm ci", "npx playwright install chromium"]
+cmds = ["npx playwright install chromium"] # Yahan se 'npm ci &&' hata diya hai
