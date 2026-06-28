@@ -3,4 +3,8 @@ builder = "nixpacks"
 pkgs = ["ffmpeg", "chromium"]
 
 [phases.build]
-cmds = ["npx playwright install chromium"] # Yahan se 'npm ci &&' hata diya hai
+cmds = ["cd server && npm ci && npx playwright install chromium"]
+
+[deploy]
+startCmd = "cd server && node index.js" 
+# (Agar aapki main file ka naam index.js nahi server.js hai, toh index.js badal dena)
